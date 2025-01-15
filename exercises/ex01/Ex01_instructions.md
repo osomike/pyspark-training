@@ -21,7 +21,14 @@ You will:
 
 ## Instructions
 
-1. **Setup the Environment**: Start by setting up your AWS Glue Interactive Session and configuring the necessary Spark settings.
+1. **Setup the Environment**: 
+    - Start an AWS Glue Interactive Session with the following configuration:
+      ```python
+      %idle_timeout 30
+      %glue_version 5.0
+      %worker_type G.1X
+      %number_of_workers 4
+      ```
 2. **Load Data**: Load the New York Taxi dataset from the specified S3 path.
 3. **Transform Data**: Apply transformations to create new columns like `surcharge_amount`, `is_long_trip`, and `trip_category`, and filter the dataset to include only VTS trips.
 4. **Query Plans**: Use the `explain` method to analyze the query plans for your transformations.
