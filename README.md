@@ -48,4 +48,4 @@ To set up the project, follow these steps:
 To run the training notebooks, navigate to your AWS Glue console and start the notebooks.
 
 ## Trainer
-The training is conducted by Oscar Mike Claure Cabrera. Connect with him on [LinkedIn](https://www.linkedin.com/in/oscarclaure/).
+The training is conducted by Oscar Mike Claure Cabrera. Connect with me on [LinkedIn](https://www.linkedin.com/in/oscarclaure/).
