@@ -12,7 +12,7 @@ Welcome to the PySpark Training repository. This repository contains materials a
 - [Trainer](#trainer)
 
 ## Introduction
-This training is designed to help you get started with Apache Spark and AWS Glue. You will learn how to process large datasets using PySpark and how to leverage AWS Glue for ETL (Extract, Transform, Load) operations.
+This training is designed for individuals who are already familiar with Apache Spark at a medium to advanced level. You will learn how to process large datasets using PySpark and how to leverage AWS Glue for ETL (Extract, Transform, Load) operations.
 
 ## Topics Covered
 In this training, we will cover the following topics:
@@ -24,11 +24,14 @@ In this training, we will cover the following topics:
   - Catalyst optimizer
   - Shuffling
   - Partitioning
+  - Narrow vs Wide operations
+  - Types of joins
+  - Performance evaluation
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
-- An AWS account
-- Basic knowledge of Python and Spark
+- An AWS account, or any other equivalent environment where you can run spark code.
+- Medium to advanced knowledge of Python and Spark
 
 ## Setup
 To set up the project, follow these steps:
@@ -43,12 +46,6 @@ To set up the project, follow these steps:
 
 ## Usage
 To run the training notebooks, navigate to your AWS Glue console and start the notebooks.
-
-## Contributing
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more information.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Trainer
 The training is conducted by Oscar Mike Claure Cabrera. Connect with him on [LinkedIn](https://www.linkedin.com/in/oscarclaure/).
